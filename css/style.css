@@ -2,7 +2,7 @@ body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	color: #777;
+	color: #03414E;
 	width: 100% !important;
 	height: 100% !important;
 }
@@ -17,16 +17,16 @@ h2 {
 	line-height: 20px;
 	font-weight: 600;
 	margin: 0;
-	color: #555;
+	color: #03414E;
 }
 h3 {
 	font-size: 16px;
 	font-weight: 700;
-	color: #555;
+	color: #03414E;
 }
 h4 {
 	font-weight: 500;
-	color: #555;
+	color: #03414E;
 }
 h5 {
 	text-transform: uppercase;
@@ -92,7 +92,7 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #E75926;
+	background: #169FA3;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	border: 0;
@@ -109,7 +109,7 @@ hr {
 	font-weight: 600;
 }
 .navbar-custom .navbar-brand i.fa {
-	color: #E75926;
+	color: #169FA3;
 }
 .navbar-custom .navbar-brand:focus {
 	outline: 0;
@@ -121,7 +121,7 @@ hr {
 	padding: 0 4px;
 }
 .navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
-	background-color: #E75926;
+	background-color: #169FA3;
 	color: #ffffff;
 }
 .navbar-custom .navbar-brand .navbar-toggle:focus, .navbar-custom .navbar-brand .navbar-toggle:active {
@@ -137,13 +137,13 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #E75926;
+	color: #169FA3;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #E75926;
+	color: #169FA3;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
@@ -161,7 +161,7 @@ hr {
 	height: auto;
 	padding: 100px 0;
 	text-align: center;
-	color: #fff;
+	color: #03414E;
 	background: url(../img/intro-bg.jpg) no-repeat center center fixed;
 	background-color: #000;
 	-webkit-background-size: cover;
@@ -180,8 +180,8 @@ hr {
 	text-transform: uppercase;
 }
 #intro .intro-body .brand-heading {
-	color: #E75926;
-	text-shadow: 0 4px #a13e1a;
+	color: #169FA3;
+	text-shadow: 0 4px #03414E;	/* shadow proper A13E1A*/
 }
 #intro .intro-body .intro-text {
 	font-size: 18px;
@@ -201,7 +201,7 @@ hr {
 }
 .btn-default {
 	color: #f6f6f6;
-	background: #cf5022;
+	background: #E4634D;
 	border: 0;
 	padding: 12px 24px;
 	margin: 0 8px;
@@ -239,7 +239,7 @@ hr {
 	content: "✓";
 	font-weight: 600;
 	padding-right: 10px;
-	color: #e75926;
+	color: #169FA3;
 }
 #about i.fa {
 	float: left;
@@ -259,7 +259,7 @@ hr {
 /* Services Section */
 #services {
 	padding: 140px 0;
-	background: url(../img/services-bg.jpg);
+	background: url(../img/services-bg.png);
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -267,22 +267,22 @@ hr {
 	padding: 20px 10px;
 }
 #services h2 {
-	color: #f6f6f6;
+	color: #03414E;
 }
 #services h3 {
 	font-size: 20px;
 	font-weight: 600;
-	color: #f6f6f6;
+	color: #03414E;
 }
 #services p {
-	color: rgba(255,255,255,0.7);
+	color: #03414E;
 }
 .space {
 	margin-top: 40px;
 }
 #services i.fa {
 	font-size: 36px;
-	color: #E75926;
+	color: #169FA3;
 	transition: all 0.5s;
 }
 /* Gallery Section */
@@ -309,13 +309,13 @@ ol.type li a {
 }
 ol.type li a.active {
 	color: #f6f6f6;
-	border: 1px solid #cf5022;
-	background: #cf5022;
+	border: 1px solid #E4634D;
+	background: #E4634D;
 }
 ol.type li a:hover {
 	color: #f6f6f6;
-	border: 1px solid #cf5022;
-	background: #cf5022;
+	border: 1px solid #E4634D;
+	background: #E4634D;
 }
 .isotope-item {
 	z-index: 2
@@ -483,7 +483,7 @@ img.img-thumbnail.team-img {
 }
 #contact i.fa {
 	font-size: 22px;
-	color: #e75926;
+	color: #169FA3;
 	margin-bottom: 10px;
 }
 #contact .text-danger {
@@ -520,7 +520,7 @@ label {
 	box-shadow: transparent;
 }
 #contact .btn-default {
-	background: #cf5022;
+	background: #E4634D;
 	border: 0;
 	border-radius: 4px;
 	padding: 10px 20px;
@@ -552,7 +552,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #contact .social i.fa {
 	font-size: 24px;
 	padding-top: 8px;
-	color: #cf5022;
+	color: #E4634D;
 	border-radius: 4px;
 	transition: all 0.3s;
 }
@@ -570,7 +570,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #999999;
 }
 #footer a:hover, a:focus {
-	color: #e75926;
+	color: #169FA3;
 }
 #footer p {
 	font-size: 13px;
