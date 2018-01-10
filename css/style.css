@@ -63,6 +63,10 @@ ul, ol {
 .clearfix {
 	display: block;
 }
+.logo{
+	margin: auto;
+	width: 40%;
+}
 #preloader {
 	position: fixed;
 	top: 0;
@@ -102,7 +106,7 @@ hr {
 	padding: 0;
 	border-bottom: 0;
 	letter-spacing: 1px;
-	background: #333;
+	background: #E4634D;
 	text-transform: uppercase;
 }
 .navbar-custom .navbar-brand {
@@ -176,7 +180,7 @@ hr {
 #intro .intro-body H1 {
 	font-size: 76px;
 	font-weight: 700;
-	color: rgba(255,255,255,0.8);
+	color: #03414E;
 	text-transform: uppercase;
 }
 #intro .intro-body .brand-heading {
@@ -193,10 +197,11 @@ hr {
 	padding: 0;
 }
 #intro .intro-body .intro-text {
-	font-size: 18px;
+	font-family: 'Caveat';
+	font-size: 32px;
 	letter-spacing: 1px;
 	margin-bottom: 100px;
-	color: rgba(255,255,255,0.9);
+	color: #03414E; /* slogan */
 }
 }
 .btn-default {
