@@ -158,21 +158,41 @@ hr {
 .navbar-custom .nav li.active a:hover {
 	color: #fff;
 }
-/* Home Section */
-#intro {
-	display: table;
-	width: 100%;
-	height: auto;
-	padding: 100px 0;
-	text-align: center;
-	color: #03414E;
-	background: url(../img/intro-bg.jpg) no-repeat center center fixed;
-	background-color: #000;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
+/* Home Section for computer screens */
+@media (min-width: 320px) {
+	#intro {
+		display: table;
+		width: 100%;
+		height: auto;
+		padding: 100px 0;
+		text-align: center;
+		color: #03414E;
+		background: url(../img/intro-bg.jpg) no-repeat center center fixed;
+		background-color: #000;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-o-background-size: cover;
+	}
 }
+/* Home Section for smartphone screens */
+@media (max-width: 320px) {
+	#intro {
+		display: table;
+		width: 100%;
+		height: auto;
+		padding: 100px 0;
+		text-align: center;
+		color: #03414E;
+		background: url(../img/about.jpg) no-repeat center center fixed;
+		background-color: #000;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-o-background-size: cover;
+	}
+}
+
 #intro .intro-body {
 	display: table-cell;
 	vertical-align: middle;
