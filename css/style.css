@@ -362,7 +362,7 @@ ol.type li a:hover {
 	margin-bottom: 30px;
 }
 .portfolio-item .hover-bg {
-	max-height: 190px;
+	max-height: 390px;
 	overflow: hidden;
 	position: relative;
 }
