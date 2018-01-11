@@ -36,6 +36,10 @@ h5 {
 p {
 	font-size: 14px;
 }
+p.bold {
+	font-weight: bold;
+	color:  #E75926;
+}
 a {
 	color: #754747;
 }
@@ -173,13 +177,6 @@ hr {
 	background-size: cover;
 	-o-background-size: cover;
 }
-@media (min-width: 769px) {
-  body {
-    background-color: green;
-    background-image: image-url("http://placekitten.com/g/800/1048");
-  }
-}
-
 
 #intro .intro-body {
 	display: table-cell;
