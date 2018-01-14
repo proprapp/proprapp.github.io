@@ -190,7 +190,7 @@ hr {
 }
 #intro .intro-body .brand-heading {
 	color: #169FA3;
-	text-shadow: 0 4px #03414E;	/* shadow proper A13E1A*/
+	text-shadow: 0 4px #03414E;	/* shadow proper 169FA3*/
 }
 #intro .intro-body .intro-text {
 	font-size: 18px;
@@ -220,7 +220,7 @@ hr {
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
 	color: #f6f6f6;
-	background-color: #a13e1a;
+	background-color: #169FA3;
 }
 .section-title.center {
 	padding: 30px 0;
@@ -231,7 +231,9 @@ hr {
 /* About Section */
 #about {
 	padding: 140px 0;
-	background: #f6f6f6;
+	background: url(../img/services-bg.png);
+	background-size: cover;
+	background-attachment: fixed;
 }
 #about .about-text {
 	margin-left: 10px;
@@ -540,7 +542,7 @@ label {
 }
 #contact .btn-default:hover, #contact .btn-default:focus {
 	color: #f6f6f6;
-	background: #a13e1a;
+	background: #169FA3;
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -567,7 +569,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-	color: #a13e1a;
+	color: #169FA3;
 }
 /* Footer Section*/
 #footer {
