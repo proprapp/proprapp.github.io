@@ -170,7 +170,7 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #03414E;
-	background: url(../img/intro-bg.jpg) no-repeat center center fixed;
+	background: url(../img/intro-bglight.jpg) no-repeat center center fixed;
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -231,9 +231,7 @@ hr {
 /* About Section */
 #about {
 	padding: 140px 0;
-	background: url(../img/services-bg.png);
-	background-size: cover;
-	background-attachment: fixed;
+	background: #e0f3ff;
 }
 #about .about-text {
 	margin-left: 10px;
@@ -263,12 +261,14 @@ hr {
 }
 #about img {
 	margin-top: 20px;
+	box-shadow: 5px 5px 5px grey;
+	width: 220px;
 }
 #about p {
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
-/* Services Section */
+/* Services Section (is now 'about Propr') */
 #services {
 	padding: 140px 0;
 	background: url(../img/services-bg.png);
@@ -297,10 +297,10 @@ hr {
 	color: #169FA3;
 	transition: all 0.5s;
 }
-/* Gallery Section */
+/* Gallery Section (screenshots) */
 #works {
 	padding: 120px 0;
-	background: #f6f6f6;
+	background: #F3F3FF;
 }
 .categories {
 	padding-bottom: 30px;
@@ -362,6 +362,7 @@ ol.type li a:hover {
 }
 .portfolio-item {
 	margin-bottom: 30px;
+	box-shadow: 5px 5px 5px grey;
 }
 .portfolio-item .hover-bg {
 	max-height: 390px;
@@ -428,7 +429,9 @@ ol.type li a:hover {
 /* Team Section */
 #team {
 	padding: 140px 0;
-	background: #e6e6e6;
+	background: url(../img/services-bg.png);
+	background-size: cover;
+	background-attachment: fixed;
 }
 img.img-thumbnail.team-img {
 	width: 200px;
@@ -447,11 +450,10 @@ img.img-thumbnail.team-img {
 }
 /* Testimonials Section */
 #testimonials {
-	background: url(../img/testimonials-bg.jpg);
+	padding: 140px 0;
+	background: #F3F3FF;
 	background-size: cover;
 	background-attachment: fixed;
-	color: #ddd;
-	padding: 140px 0;
 }
 #testimonials h2 {
 	color: #f6f6f6;
@@ -477,7 +479,7 @@ img.img-thumbnail.team-img {
 /* Contact Section */
 #contact {
 	padding: 120px 0 40px 0;
-	background: #f6f6f6;
+	background: #e0f3ff;
 }
 #contact .contact-item {
 	padding: 10px;
@@ -573,13 +575,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Footer Section*/
 #footer {
-	background: #333;
+	background: #03414E;
 	color: #777;
 	padding: 20px 0;
 	text-align: center;
 }
 #footer a {
-	color: #999999;
+	color: #FFFFFF;
 }
 #footer a:hover, a:focus {
 	color: #169FA3;
