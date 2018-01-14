@@ -262,40 +262,11 @@ hr {
 #about img {
 	margin-top: 20px;
 	box-shadow: 5px 5px 5px grey;
-	width: 220px;
+	width: 600px;
 }
 #about p {
 	margin-top: 20px;
 	margin-bottom: 30px;
-}
-/* Services Section (is now 'about Propr') */
-#services {
-	padding: 140px 0;
-	background: url(../img/services-bg.png);
-	background-size: cover;
-	background-attachment: fixed;
-}
-#services .service {
-	padding: 20px 10px;
-}
-#services h2 {
-	color: #03414E;
-}
-#services h3 {
-	font-size: 20px;
-	font-weight: 600;
-	color: #03414E;
-}
-#services p {
-	color: #03414E;
-}
-.space {
-	margin-top: 40px;
-}
-#services i.fa {
-	font-size: 36px;
-	color: #169FA3;
-	transition: all 0.5s;
 }
 /* Gallery Section (screenshots) */
 #works {
